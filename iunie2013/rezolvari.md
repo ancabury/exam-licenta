@@ -25,13 +25,14 @@
 #### 4. Câte procese creează procesul P1 (excluzând procesul părinte) dacă lipseşte instrucţiunea
 exit(0)?
   - 7 procese
+
   ```
   7568: 3 i = 2 parent = 7565
   7567: 2 i = 1 parent = 7565
-                                            ---> 7569: 4 i = 2 parent = 7567
+                              ---> 7569: 4 i = 2 parent = 7567
   7566: 1 i = 0 parent = 7565 ---> 7571: 3 i = 2 parent = 7566
-                                            ---> 7570: 2 i = 1 parent = 7566
-                                                                                              ---> 7572: 4 i = 2 parent = 7570
+                              ---> 7570: 2 i = 1 parent = 7566
+                                                              ---> 7572: 4 i = 2 parent = 7570
   ```
 
 

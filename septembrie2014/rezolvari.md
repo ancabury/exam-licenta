@@ -8,6 +8,7 @@
 #### 2.  Ce va tipări pe ecran secvența de cod de mai jos?
   - C: CHILD_PID PIPE_PID + CHILD_PID
     P: PARENT_PID PIPE_PID
+
     ```
     C: 11933 23865
     C: 11934 35799
@@ -23,6 +24,7 @@
 #### 4.  Cum este afectată ordinea afișării pe ecran, dacă se interschimbă liniile de cod 10 și 11? Justificați răspunsul.
   - rezultatul sunt in aceiasi ordine (nu e afectata afisarea)
   - de ce ??
+  
   ```
   C: 12844 25687
   C: 12845 38532
@@ -41,7 +43,8 @@
 #### 2. Ce va afișa scriptul pe ecran?
   - ora pasului curent ($H) si de cate ori s-a logat cineva in acea ora (din toate fisierele) ($N)
 
- | input                                   | result |
+ | input                      | result|
+ |----------------------------|:-----:|
  | 2014-07-29 09:37:21 asarbu | 09 3  |
  | 2014-07-29 09:37:21 asarbu |  10 1 |
  | 2014-07-29 09:37:21 asarbu |  11 2 |
@@ -49,10 +52,10 @@
  | 2014-07-29 11:37:21 asarbu |  13 0 |
  | 2014-07-29 11:37:21 asarbu |  14 0 |
  | 2014-07-29 12:37:21 asarbu |  15 0 |
- |                                           |  16 0 |
- |                                           |  17 0 |
- |                                           |  18 0 |
- |                                           |  19 0 |
- |                                           |  20 0 |
- |                                           |  21 0 |
- |                                           |  22 0 |
+ |                            |  16 0 |
+ |                            |  17 0 |
+ |                            |  18 0 |
+ |                            |  19 0 |
+ |                            |  20 0 |
+ |                            |  21 0 |
+ |                            |  22 0 |

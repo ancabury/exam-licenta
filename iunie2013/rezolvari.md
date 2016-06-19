@@ -15,6 +15,7 @@
     4639: 3
     4638: 2
     ```
+
 #### 2. Ce se întămplă dacă se inversează ordinea instrucţiunilor open din programul P2?
   - procesul p2 obtine drepturi de citire pe fisierul a2b, iar procesul p1 nu poate obtine drepturi de scriere pe acelasi fisiere doar dupa ce a fost eliberat de p2, => p2 nu va citit nimic, iar valoarea lui n va fi una reziduala din memorie
 

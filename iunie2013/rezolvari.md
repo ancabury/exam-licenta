@@ -15,6 +15,7 @@
     4639: 3
     4638: 2
     ```
+    
 #### 2. Ce se întămplă dacă se inversează ordinea instrucţiunilor open din programul P2?
   - procesul p2 obtine drepturi de citire pe fisierul a2b, iar procesul p1 nu poate obtine drepturi de scriere pe acelasi fisiere doar dupa ce a fost eliberat de p2, => p2 nu va citit nimic, iar valoarea lui n va fi una reziduala din memorie
 
@@ -24,13 +25,14 @@
 #### 4. Câte procese creează procesul P1 (excluzând procesul părinte) dacă lipseşte instrucţiunea
 exit(0)?
   - 7 procese
+  
   ```
   7568: 3 i = 2 parent = 7565
   7567: 2 i = 1 parent = 7565
-                                            ---> 7569: 4 i = 2 parent = 7567
+                              ---> 7569: 4 i = 2 parent = 7567
   7566: 1 i = 0 parent = 7565 ---> 7571: 3 i = 2 parent = 7566
-                                            ---> 7570: 2 i = 1 parent = 7566
-                                                                                              ---> 7572: 4 i = 2 parent = 7570
+                              ---> 7570: 2 i = 1 parent = 7566
+                                                              ---> 7572: 4 i = 2 parent = 7570
   ```
 
 
